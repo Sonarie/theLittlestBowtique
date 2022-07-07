@@ -1,25 +1,117 @@
+:root {
+   --blue: #37608C;
+   --orange: #E1A7A5;
+   --purple: #A298DF;
+   --peri: #6A68A7;
+   --pink: #E9BDCC;
+   --pretty: URW Chancery L, cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    color: #39a6b2;
-    font-family: Arial, Helvetica, sans-serif;
+    color:var(--peri);
+    font-family: var(--pretty);
 }
 
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: var(--blue);
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: var(--pink);
     margin:0;
+    display: inline;
 }
 
 header a {
-    color: #fce138;
+    color: var(--pink);
 }
 
 header nav {
     float: right;
     margin: 7px 0;
 }
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+footer {
+    background: var(--pink);
+    width: 100%;
+    padding: 20px 15px;
+    font-size: 10px;
+    margin: 0;
+}
+
+section {
+    padding: 60px;  
+}
+
+/* Banner Styling begin*/
+.hero {
+    background-image: url("../images/hero.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    border: 3px solid var(--peri);
+    border-radius: 10px;
+    background-color: var(--orange);
+    padding: 20px;
+    width: 500px;
+    color: var(--peri);
+    position: absolute;
+    bottom: 320px;
+    left: 50px;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin:0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px, 0;
+}
+
+.form-input {
+    border: 1px solid var(--peri);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--peri);
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: var(--orange);
+    background-color: var(--peri);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* Banner Styling end*/
