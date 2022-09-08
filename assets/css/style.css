@@ -115,3 +115,26 @@ section {
     font-size: 16px;
 }
 /* Banner Styling end*/
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: var(--pretty);
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: var(--pink);
+    display: inline-block;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: var(--blue);
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
