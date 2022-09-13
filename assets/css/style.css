@@ -116,21 +116,20 @@ section {
 }
 /* Banner Styling end*/
 
-.intro {
+.steps {
     text-align: center;
 }
 
-.intro h2 {
+.section-title {
     font-size: 55px;
     color: var(--pretty);
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    border-color: var(--pink);
     display: inline-block;
 }
 
-.intro p {
+.steps p {
     line-height: 1.7;
     color: var(--blue);
     width: 80%;
@@ -138,3 +137,43 @@ section {
     margin: 0 auto;
 }
 
+.intro {
+    text-align: center;
+    background: var(--orange);
+}
+
+.primary-border {
+    border-color: var(--pink);
+}
+
+.secondary-border {
+    border-color: var(--blue);
+}
+
+.intro div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.intro h3{
+    color: var(--peri);
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.intro p {
+    color: var(--blue);
+    font-size: 23px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact address {
+    font-weight: bold;
+}
